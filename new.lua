@@ -48,5 +48,20 @@ Embed parameters:
   Examples:
     {embed}$v{title: hi}$v{description: okay bye}$v{field: okay bye && bye bitch && false}$v{field: bye bye && bye bitch && false}$v{color: 36393f}$v{timestamp}
 
-
+Variables:
+    [Last.fm]:
+      track.name - Track name
+      lower(track.name) - Track name in lower
+      upper(track.name) - Track name in uppercase
+      track.url - Track URL
+      track.plays - Track plays
+      formal(track.plays) - Track plays in proper number design: 4,230
+      artist.name - Artist name
+    [Guild]:
+      guild.name - Guilds name
+      guild.id - Guilds ID
+      guild.icon - Guilds ICON
+      guild.banner - Guilds banner
+      guild.membercount - Guilds membercount
+      guild.created - Guilds create date
  
